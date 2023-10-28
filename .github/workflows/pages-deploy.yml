@@ -51,14 +51,14 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Test site
-        run: |
-          bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
-
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
+
+      - name: Test site
+        run: |
+          bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
 
   deploy:
     environment:
