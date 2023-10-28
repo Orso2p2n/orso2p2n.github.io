@@ -48,8 +48,7 @@ hide_all_panel: true
 
           <div class="card-text post-content mt-0 mb-2">
             <p>
-              {% include no-linenos.html content=post.content %}
-              {{ content | markdownify | strip_html | truncate: 200 | escape }}
+              {{ post.summary | truncate: 200 | escape }}
             </p>
           </div>
 
