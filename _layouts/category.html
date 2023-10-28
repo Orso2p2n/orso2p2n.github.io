@@ -13,11 +13,44 @@ layout: page
   </h1>
 
   <ul class="post-content ps-0">
-    {% for post in page.posts %}
+    {% assign blog_posts = page.posts | where: 'post_type', 'blog' %}
+    {% assign portfolio_posts = page.posts | where: 'post_type', 'portfolio' %}
+    {% assign art_posts = page.posts | where: 'post_type', 'art' %}
+    
+    {% assign all_posts = blog_posts %}
+    {% for portfolio_post in portfolio_posts %} {% assign all_posts = all_posts | push: portfolio_post %} {% endfor %}
+    {% for art_post in art_posts %} {% assign all_posts = all_posts | push: art_post %} {% endfor %}
+
+    {% assign cur_post_type = blog %}
+    {% assign cur_title = "Blog" %}
+    {% assign cur_icon = "fas fa-comment" %}
+
+    {% for post in all_posts %}
+      {% if post.post_type and post.post_type != cur_post_type %}
+
+        {% assign cur_post_type = post.post_type %}
+
+        {% for tab in site.tabs %}
+          {% if tab.post_type == cur_post_type %}
+            {% assign cur_title = tab.title %}
+            {% assign cur_icon = tab.icon %}
+          {% endif %}
+        {% endfor %}
+
+        <i class="{{cur_icon}} fa-fw text-muted small font-weight-light"></i>
+        <span class="lead text-muted ps-2">{{ cur_title }}</span>
+      {% endif %}
+
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <span class="dash flex-grow-1"></span>
-        {% include datetime.html date=post.date wrap='span' class='text-muted small' lang=lang %}
+
+        {% if post.date_override %}
+          <span class="text-muted small">{{post.date_override}}</span>
+        {% else %}
+          {% include datetime.html date=post.date wrap='span' class='text-muted small' lang=lang %}
+        {% endif %}
+
       </li>
     {% endfor %}
   </ul>

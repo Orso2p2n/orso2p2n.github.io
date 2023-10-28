@@ -28,8 +28,8 @@
     <!-- home -->
     <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
       <a href="{{ '/' | relative_url }}" class="nav-link">
-        <i class="fa-fw fas fa-home"></i>
-        <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+        <i class="fa-fw fas fa-comment"></i>
+        <span>{{ "blog" | upcase }}</span>
       </a>
     </li>
     <!-- the real tabs -->
