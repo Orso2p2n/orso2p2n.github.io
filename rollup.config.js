@@ -39,6 +39,8 @@ function build(filename) {
 export default [
   build('commons'),
   build('home'),
+  build('portfolio'),
+  build('art-gallery'),
   build('categories'),
   build('page'),
   build('post'),

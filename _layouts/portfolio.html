@@ -49,7 +49,7 @@ refactor: true
             <div class="me-auto">
               <!-- posted date -->
               <i class="far fa-calendar fa-fw me-1"></i>
-              {% include datetime.html date=post.date_override lang=lang %}
+              <em class="">{{post.date_override}}</em>
 
               <!-- categories -->
               {% if post.categories.size > 0 %}
