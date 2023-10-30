@@ -21,7 +21,7 @@ refactor: true
   {% assign all_posts_num = 0 %}
 {% endif %}
 
-<div id="post-list">
+<div id="portfolio-list">
   {% for post in posts %}
     <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
@@ -77,4 +77,4 @@ refactor: true
     </a>
   {% endfor %}
 </div>
-<!-- #post-list -->
+<!-- #portfolio-list -->

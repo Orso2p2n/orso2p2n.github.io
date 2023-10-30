@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 post_type: portfolio
-hidden: true
+hidden: false
 
 title: Dead Cells Updates
 summary: Updates and DLCs for the game Dead Cells.

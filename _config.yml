@@ -167,7 +167,7 @@ defaults:
       swcache: true
 
 sass:
-  style: compressed
+  style: expanded
 
 compress_html:
   profile: false

@@ -1,8 +1,8 @@
 /*
-  Style for Homepage
+  Style for Portfolio
 */
 
-#post-list {
+#porfolio-list {
   margin-top: 2rem;
 
   a.card-wrapper {
@@ -86,61 +86,11 @@
       }
     }
   }
-} /* #post-list */
-
-.pagination {
-  color: var(--btn-patinator-text-color);
-  font-family: Lato, sans-serif;
-
-  a:hover {
-    text-decoration: none;
-  }
-
-  .page-item {
-    .page-link {
-      color: inherit;
-      width: 2.5rem;
-      height: 2.5rem;
-      padding: 0;
-      display: -webkit-box;
-      -webkit-box-pack: center;
-      -webkit-box-align: center;
-      border-radius: 50%;
-      border: 1px solid var(--btn-paginator-border-color);
-      background-color: var(--button-bg);
-
-      &:hover {
-        background-color: var(--btn-paginator-hover-color);
-      }
-    }
-
-    &.active {
-      .page-link {
-        background-color: var(--btn-paginator-hover-color);
-        color: var(--btn-text-color);
-      }
-    }
-
-    &.disabled {
-      cursor: not-allowed;
-
-      .page-link {
-        color: rgba(108, 117, 125, 0.57);
-        border-color: var(--btn-paginator-border-color);
-        background-color: var(--button-bg);
-      }
-    }
-
-    &:first-child .page-link,
-    &:last-child .page-link {
-      border-radius: 50%;
-    }
-  } /* .page-item */
-} /* .pagination */
+} /* #portfolio-list */
 
 /* Tablet */
 @media all and (min-width: 768px) {
-  #post-list {
+  #portfolio-list {
     %img-radius {
       border-radius: 0 $base-radius $base-radius 0;
     }
@@ -172,48 +122,16 @@
   }
 }
 
-/* Hide SideBar and TOC */
-@media all and (max-width: 830px) {
-  .pagination {
-    justify-content: space-evenly;
-
-    .page-item {
-      &:not(:first-child):not(:last-child) {
-        display: none;
-      }
-    }
-  }
-}
-
 /* Sidebar is visible */
 @media all and (min-width: 831px) {
-  #post-list {
+  #portfolio-list {
     margin-top: 2.5rem;
   }
-
-  .pagination {
-    font-size: 0.85rem;
-
-    .page-item {
-      &:not(:last-child) {
-        margin-right: 0.7rem;
-      }
-
-      .page-link {
-        width: 2rem;
-        height: 2rem;
-      }
-    }
-
-    .page-index {
-      display: none;
-    }
-  } /* .pagination */
 }
 
 /* Panel is visible */
 @media all and (min-width: 1200px) {
-  #post-list {
+  #portfolio-list {
     padding-right: 0.5rem;
   }
 }
