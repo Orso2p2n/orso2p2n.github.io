@@ -1,4 +1,9 @@
 ---
+layout: portfolio-post
+post_type: portfolio
+permalink: /portfolio/
+hidden: true
+
 title: Dead Cells Updates
 summary: Updates and DLCs for the game Dead Cells.
 image: /assets/img/posts/portfolio/dead-cells-updates/header.png
