@@ -5,16 +5,26 @@ swcache: true
 
 [
   {% for post in site.posts %}
-  {
-    "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
-    "categories": {{ post.categories | join: ', ' | jsonify }},
-    "tags": {{ post.tags | join: ', ' | jsonify }},
-    "date": "{{ post.date }}",
-    {% include no-linenos.html content=post.content %}
-    {% assign _content = content | strip_html | strip_newlines %}
-    "snippet": {{ _content | truncate: 200 | jsonify }},
-    "content": {{ _content | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
+  
+    {% assign cur_icon = "fas fa-comment" %}
+
+    {% for tab in site.tabs %}
+      {% if tab.post_type == post.post_type %}
+        {% assign cur_icon = tab.icon %}
+      {% endif %}
+    {% endfor %}
+
+    {
+      "title": {{ post.title | jsonify }},
+      "icon": {{ cur_icon | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "categories": {{ post.categories | join: ', ' | jsonify }},
+      "tags": {{ post.tags | join: ', ' | jsonify }},
+      "date": "{{ post.date }}",
+      {% include no-linenos.html content=post.content %}
+      {% assign _content = content | strip_html | strip_newlines %}
+      "snippet": {{ _content | truncate: 200 | jsonify }},
+      "content": {{ _content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
