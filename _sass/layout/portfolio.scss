@@ -3,7 +3,7 @@
 */
 
 #portfolio-list {
-  @extend post-list !optional;
+  @extend #post-list;
 } /* #portfolio-list */
 
 /* Tablet */
