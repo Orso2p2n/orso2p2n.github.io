@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 post_type: portfolio
-permalink: /portfolio/
+permalink: /portfolio/:title
 hidden: true
 
 title: Dead Cells Updates
