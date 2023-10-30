@@ -40,29 +40,29 @@ layout: default
     </div>
   </div>
   <!-- #core-wrapper -->
-</div>
 
-<!-- tags -->
-{% if page.tags.size > 0 %}
-<div class="post-tags">
-  <i class="fa fa-tags fa-fw me-1"></i>
-    {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-        class="post-tag no-text-decoration" >
-      {{- tag -}}
-    </a>
-    {% endfor %}
-</div>
-{% endif %}
-
-<!-- tail -->
-{% if has_tail %}
-  <div class="row">
-    <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-3 pe-xl-4 mt-5">
-      {% for _include in layout.tail_includes %}
-        {% assign _include_path = _include | append: '.html' %}
-        {% include {{ _include_path }} lang=lang %}
+  <!-- tags -->
+  {% if page.tags.size > 0 %}
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw me-1"></i>
+      {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+          class="post-tag no-text-decoration" >
+        {{- tag -}}
+      </a>
       {% endfor %}
-    </div>
   </div>
-{% endif %}
+  {% endif %}
+
+  <!-- tail -->
+  {% if has_tail %}
+    <div class="row">
+      <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-3 pe-xl-4 mt-5">
+        {% for _include in layout.tail_includes %}
+          {% assign _include_path = _include | append: '.html' %}
+          {% include {{ _include_path }} lang=lang %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
