@@ -135,18 +135,40 @@ collections:
   tabs:
     output: true
     sort_by: order
+  posts-portfolio:
+    output: true
+  posts-art:
+    output: true
 
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts
     values:
+      toc: true # Display TOC column in posts.
       layout: post
       comments: false # Enable comments in posts.
-      toc: true # Display TOC column in posts.
-      # DO NOT modify the following parameter unless you are confident enough
-      # to update the code of all other post links in this project.
+      post_type: blog
       permalink: /posts/:title/
+      icon: fas fa-comment
+  - scope:
+      path: ""
+      type: posts-portfolio
+    values:
+      toc: true
+      layout: portfolio-post
+      post_type: portfolio
+      permalink: /portfolio/:title/
+      icon: fas fa-briefcase
+  - scope:
+      path: ""
+      type: posts-art
+    values:
+      toc: true
+      layout: art-post
+      post_type: art
+      permalink: /art-gallery/:title/
+      icon: fas fa-palette
   - scope:
       path: _drafts
     values:

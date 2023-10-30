@@ -7,7 +7,7 @@ panel_includes:
 
 {% include lang.html %}
 
-{% assign all_posts = site.posts | where: 'post_type', 'art' %}
+{% assign all_posts = site.posts-art %}
 
 {% assign posts = '' | split: '' %}
 
