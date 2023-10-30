@@ -8,6 +8,7 @@ panel_includes:
 {% include lang.html %}
 
 {% assign all_posts = site.posts | where: 'post_type', 'portfolio' %}
+{% assign all_posts = all_posts | where_exp: 'item', 'item.invisible != true' %}
 
 {% assign posts = '' | split: '' %}
 

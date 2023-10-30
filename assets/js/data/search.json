@@ -6,6 +6,10 @@ swcache: true
 [
   {% for post in site.posts %}
   
+    {% if post.invisible %}
+      {% continue %}
+    {% endif %}
+
     {% assign cur_icon = "fas fa-comment" %}
 
     {% for tab in site.tabs %}
