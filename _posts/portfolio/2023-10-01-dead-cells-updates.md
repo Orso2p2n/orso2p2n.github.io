@@ -1,7 +1,7 @@
 ---
 layout: post
 post_type: portfolio
-permalink: /portfolio/:title
+permalink: /portfolio/:title/
 hidden: true
 panel_includes:
   - toc
@@ -28,7 +28,7 @@ _Version 2.5_
 <div markdown="0">
 <div id="dead-cells-list">
   {% assign all_posts = site.posts | where: 'post_type', 'portfolio' %}
-  {% assign all_posts = all_posts | where_exp: 'item', "item.url contains '/dead-cells-updates/'" %}
+  {% assign all_posts = all_posts | where: 'dead_cells', 'true' %}
 
   {% for post in all_posts %}
     <a href="{{ post.url | relative_url }}">

@@ -13,6 +13,8 @@
         <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
 
       {% else %}
+        {% assign combined_path = '' %}
+
         {% for item in paths %}
           {% if forloop.first %}
             <span>
@@ -29,8 +31,9 @@
             {% endif %}
 
           {% elsif item != 'posts' %}
+            {% assign combined_path = combined_path | append: item | append: "/" %}
             <span>
-              <a href="{{ item | relative_url }}">
+              <a href="{{ combined_path | relative_url }}">
                 {% assign words = item | split: '-' %}
                 {% capture item_name %}
                   {% for word in words %}
