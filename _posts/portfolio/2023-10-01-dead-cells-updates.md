@@ -20,7 +20,7 @@ tags: [Programming,Haxe]
   {% assign all_posts = all_posts | where: 'dead_cells', 'true' %}
 
   {% for post in all_posts %}
-    <a href="{{ post.url | relative_url }}">
+    <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
         <img src="{{post.image}}" w="15" h="8" class="refactor-preview">
         <div class="card-body d-flex flex-column">

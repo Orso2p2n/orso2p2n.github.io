@@ -4,7 +4,11 @@
     <!-- published date -->
     <span>
       {{ site.data.locales[lang].post.posted }}
-      <em class="">{{page.date_override}}</em>
+      {% if page.date_override %}
+        <em class="">{{page.date_override}}</em>
+      {% else %}
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
+      {% endif %}
     </span>
 </div> <!-- .post-meta -->
 

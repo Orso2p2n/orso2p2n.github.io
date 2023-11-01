@@ -11,7 +11,7 @@ dead_cells: true
 
 title: Version 2.5 - Practice Makes Perfect
 summary: 'Update themed around training, with a new training Room, new items to make runs easier, a world map...'
-image: /assets/img/posts/portfolio/dead-cells-updates/25.png
+image: /assets/img/posts/portfolio/dead-cells-updates/25/header.png
 date: 2021-09-16
 tags: [Programming,Haxe]
 invisible: true
