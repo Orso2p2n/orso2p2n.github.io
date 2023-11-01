@@ -14,17 +14,6 @@ date_override: 2021 - 2023
 tags: [Programming,Haxe]
 ---
 
-## Portfolio Test
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a mauris vestibulum neque pulvinar condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce elementum nisl et pharetra fringilla. Morbi vitae congue enim, eu congue justo. Cras posuere orci eget tortor aliquet, et suscipit ipsum pretium. Donec ut facilisis lacus, non aliquet augue. Praesent blandit tellus et risus ultrices consequat. Maecenas tempor vulputate consectetur. Proin eu est quis augue varius condimentum nec sed sapien. Praesent enim libero, tincidunt at venenatis nec, egestas eu felis. Aenean ultrices nibh id risus vehicula, et ultrices elit placerat. Sed pretium mollis fringilla. Cras at diam quam. Nulla sit amet auctor mauris. Praesent erat elit, condimentum vitae orci non, cursus accumsan justo. Fusce porttitor efficitur magna, a ultricies risus porttitor eu.
-
-Cras non dictum justo, id pulvinar felis. Curabitur sed porttitor risus, a gravida dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce a magna sed nisi blandit aliquet. Praesent at erat non metus congue suscipit. Morbi tempus dolor ut tempor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-![Image](/assets/img/posts/portfolio/dead-cells-updates/25.png){: width="972" height="589" }
-_Version 2.5_
-
 <div markdown="0">
 <div id="dead-cells-list">
   {% assign all_posts = site.posts | where: 'post_type', 'portfolio' %}
