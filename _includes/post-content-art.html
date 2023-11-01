@@ -1,0 +1,30 @@
+<h1 data-toc-skip>{{ page.title }}</h1>
+
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      {{ site.data.locales[lang].post.posted }}
+      {% include datetime.html date=page.date tooltip=true lang=lang %}
+    </span>
+</div> <!-- .post-meta -->
+
+<div class="post-content">
+  {{ content }}
+</div>
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- tags -->
+  {% if page.tags.size > 0 %}
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw me-1"></i>
+      {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+          class="post-tag no-text-decoration" >
+        {{- tag -}}
+      </a>
+      {% endfor %}
+  </div>
+  {% endif %}
+
+</div><!-- div.post-tail-wrapper -->
