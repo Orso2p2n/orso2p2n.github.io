@@ -158,7 +158,7 @@
     <!-- Bypass the HTML-proofer test -->
     {% assign _left = _left | append: ' data-proofer-ignore' %}
 
-    {% if page.layout == 'home' or page.layout == 'portfolio' or page.layout == 'art-gallery' %}
+    {% if page.layout == 'home' or page.layout == 'portfolio' or page.layout == 'art-gallery' or _class contains 'refactor-preview' %}
       <!-- create the image wrapper -->
       {%- capture _wrapper_start -%}
         <div class="preview-img {{ _class | strip }}">

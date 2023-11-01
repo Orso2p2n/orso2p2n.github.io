@@ -26,15 +26,14 @@ Cras non dictum justo, id pulvinar felis. Curabitur sed porttitor risus, a gravi
 _Version 2.5_
 
 <div markdown="0">
-<img src="{{post.image}}" w="15" h="8"><br>
-<div id="post-list">
+<div id="dead-cells-list">
   {% assign all_posts = site.posts | where: 'post_type', 'portfolio' %}
   {% assign all_posts = all_posts | where_exp: 'item', "item.url contains '/dead-cells-updates/'" %}
 
   {% for post in all_posts %}
-    <a href="{{ post.url | relative_url }}" class="card-wrapper">
+    <a href="{{ post.url | relative_url }}">
       <div class="card post-preview flex-md-row-reverse">
-        <img src="{{post.image}}" w="15" h="8">
+        <img src="{{post.image}}" w="15" h="8" class="refactor-preview">
         <div class="card-body d-flex flex-column">
           <h1 class="card-title my-2 mt-md-0">
             {{ post.title }}

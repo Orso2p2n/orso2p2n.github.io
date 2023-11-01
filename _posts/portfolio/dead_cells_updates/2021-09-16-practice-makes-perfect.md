@@ -1,7 +1,7 @@
 ---
 layout: post
 post_type: portfolio
-permalink: /portfolio/:title
+permalink: /portfolio/dead-cells-updates/:title
 hidden: true
 panel_includes:
   - toc
