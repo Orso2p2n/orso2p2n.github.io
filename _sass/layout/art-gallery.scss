@@ -1,3 +1,144 @@
 /*
   Style for Art Gallery
 */
+
+#art-list {
+  margin-top: 2rem;
+
+  a.card-wrapper {
+    display: block;
+    visibility: hidden;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .card {
+    visibility: visible;
+
+    %img-radius {
+      border-radius: $base-radius $base-radius 0 0;
+    }
+
+    .preview-img {
+      width: 100%;
+      height: fit-content;
+      aspect-ratio: 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+      }
+    }
+
+    .card-body {
+      position: absolute;
+
+      width: 100%;
+      height: 3.5rem;
+
+      background: var(--card-bg);
+
+      opacity: 0;
+
+      transition: opacity 0.35s ease-in-out;
+
+      .card-title {
+        @extend %text-clip;
+
+        font-size: 1.25rem;
+      }
+    }
+
+    %muted {
+      color: var(--text-muted-color) !important;
+    }
+
+    .card-meta {
+      position: absolute;
+      bottom: 0;
+      vertical-align: bottom;
+
+      width: 100%;
+      height: 1.75rem;
+
+      background: var(--card-bg);
+
+      opacity: 0;
+
+      transition: opacity 0.35s ease-in-out;
+
+      .post-meta {
+        @extend %muted;
+
+        margin-top: 0.2rem;
+
+        i {
+          margin-left: 0.5rem;
+
+          &:not(:first-child) {
+            margin-left: 1.5rem;
+          }
+        }
+
+        em {
+          @extend %normal-font-style;
+
+          color: inherit;
+        }
+
+        > div:first-child {
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    &:hover {
+      .card-body {
+        opacity: 0.9;
+      }
+      .card-meta {
+        opacity: 0.9;
+      }
+    }
+  }
+} /* #art-list */
+
+.art-preview {
+  @extend %rounded;
+
+  border: 0;
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+
+  width: 50%;
+  height: fit-content;
+
+  &::before {
+    @extend %rounded;
+
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--card-hovor-bg);
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
+  }
+
+  &:hover {
+    &::before {
+      opacity: 0.3;
+    }
+  }
+}
