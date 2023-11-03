@@ -3,7 +3,10 @@
 */
 
 #art-list {
-  margin-top: 2rem;
+  .grid-item{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
 
   a.card-wrapper {
     display: block;

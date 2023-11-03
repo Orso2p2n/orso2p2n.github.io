@@ -3,6 +3,7 @@ import terser from '@rollup/plugin-terser';
 import license from 'rollup-plugin-license';
 import path from 'path';
 import nodeResolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 
 const JS_SRC = '_javascript';
 const JS_DIST = 'assets/js/dist';
@@ -22,6 +23,7 @@ function build(filename) {
     },
     plugins: [
       nodeResolve(),
+      commonjs(),
       babel({
         babelHelpers: 'bundled',
         presets: ['@babel/env'],

@@ -1,11 +1,14 @@
-// import Masonry from 'masonry-layout';
+import Masonry from 'masonry-layout';
 
 import { basic, initSidebar, initTopbar } from './modules/layouts';
 import { initLocaleDatetime, imgLazy } from './modules/plugins';
 
-$('.grid').masonry({
-    // options
-    itemSelector: '.grid-item'
+document.addEventListener('lazyloaded', function() {
+    var elem = document.querySelector('.grid');
+    var msnry = new Masonry( elem, {
+      // options
+      itemSelector: '.grid-item'
+    });
 });
 
 basic();
