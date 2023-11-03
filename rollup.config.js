@@ -2,6 +2,7 @@ import babel from '@rollup/plugin-babel';
 import terser from '@rollup/plugin-terser';
 import license from 'rollup-plugin-license';
 import path from 'path';
+import nodeResolve from '@rollup/plugin-node-resolve';
 
 const JS_SRC = '_javascript';
 const JS_DIST = 'assets/js/dist';
@@ -20,6 +21,7 @@ function build(filename) {
       include: `${JS_SRC}/**`
     },
     plugins: [
+      nodeResolve(),
       babel({
         babelHelpers: 'bundled',
         presets: ['@babel/env'],
