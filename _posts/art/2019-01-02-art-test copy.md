@@ -9,7 +9,7 @@ tail_includes: ''
 
 title: Art Test
 tags: [Art,Blogging]
-image: /assets/img/posts/portfolio/dead-cells-updates/header.png
+images: [/assets/img/posts/portfolio/dead-cells-updates/header.png,/assets/img/posts/portfolio/dead-cells-updates/header.png]
 ---
 
 Bonjour

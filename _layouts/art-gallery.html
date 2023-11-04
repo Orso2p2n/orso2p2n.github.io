@@ -31,6 +31,18 @@ panel_includes:
         <div class="card art-preview">
           {% if post.image %}
             <img src="{{ post.image }}">
+          {% elsif post.images %}
+            {% for image in post.images %}
+              {% assign class = 'middle' %}
+
+              {% if forloop.first %}
+                {% assign class = 'first' %}
+              {% elsif forloop.last %}
+                {% assign class = 'last' %}
+              {% endif %}
+
+              <img src="{{ image }}" class="{{class}}">
+            {% endfor %}
           {% endif %}
           
           <div class="card-body">

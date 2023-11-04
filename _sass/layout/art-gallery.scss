@@ -25,11 +25,9 @@
   .card {
     visibility: visible;
 
-    %img-radius {
-      border-radius: $base-radius $base-radius 0 0;
-    }
-
     .preview-img {
+      border-radius: $base-radius;
+
       width: 100%;
       height: fit-content;
       aspect-ratio: 0;
@@ -40,6 +38,18 @@
         -o-object-fit: contain;
         object-fit: contain;
       }
+    }
+
+    .first {
+      border-radius: $base-radius $base-radius 0rem 0rem;
+    }
+    
+    .middle {
+      border-radius: 0rem;
+    }
+
+    .last {
+      border-radius: 0rem 0rem $base-radius $base-radius;
     }
 
     .card-body {
