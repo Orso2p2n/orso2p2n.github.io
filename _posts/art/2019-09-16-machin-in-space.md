@@ -12,5 +12,7 @@ tags: [Aseprite,Pixel Art]
 image: /assets/img/posts/art-gallery/machin-in-space/machin_in_space.png
 ---
 
+* Pixel art of the character "Machin" (property of [@Haven](https://twitter.com/haveneuh)).<br>
+* Made in Aseprite.
+
 ![](/assets/img/posts/art-gallery/machin-in-space/machin_in_space.png)
-_Pixel art of the character Machin (property of [@Haven](https://twitter.com/haveneuh))._

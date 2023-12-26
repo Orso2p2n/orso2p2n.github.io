@@ -12,4 +12,7 @@ tags: [Digital,Photoshop]
 image: /assets/img/posts/art-gallery/chonky-rowlet/chonky_rowlet.png
 ---
 
+* Digital art of a Rowlet, from [*Pokémon*](https://www.pokemon.com/).<br>
+* Made in Photoshop.
+
 ![](/assets/img/posts/art-gallery/chonky-rowlet/chonky_rowlet.png)

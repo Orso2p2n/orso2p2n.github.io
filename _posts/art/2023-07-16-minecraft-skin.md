@@ -12,4 +12,7 @@ tags: [3D,Blockbench,Pixel Art]
 images: [/assets/img/posts/art-gallery/minecraft-skin/minecraft_skin_1.png]
 ---
 
+* Pixel art of a self-portrait [*Minecraft*](https://www.minecraft.net/) skin. <br>
+* Textured and rendered in Blockbench.
+
 ![](/assets/img/posts/art-gallery/minecraft-skin/minecraft_skin_both.png)

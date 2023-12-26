@@ -12,5 +12,7 @@ tags: [Aseprite,Pixel Art]
 image: /assets/img/posts/art-gallery/impulse-last-life/impulse_last_life.png
 ---
 
+* Pixel art of [ImpulseSV's](https://www.youtube.com/@impulseSV) character in the [*Last Life*](https://www.youtube.com/playlist?list=PL0Z8otuXXj_3VETq-771PHs4BX-_JW3TA) series.<br>
+* Made in Aseprite.
+
 ![](/assets/img/posts/art-gallery/impulse-last-life/impulse_last_life.png)
-_Pixel art of [ImpulseSV](https://www.youtube.com/@impulseSV), from the [Last Life](https://www.youtube.com/playlist?list=PL0Z8otuXXj_3VETq-771PHs4BX-_JW3TA) Series._
