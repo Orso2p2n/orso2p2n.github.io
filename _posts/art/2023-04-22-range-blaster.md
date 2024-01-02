@@ -9,7 +9,8 @@ tail_includes: ''
 
 title: Range Blaster 
 tags: [3D,Blockbench,Pixel Art]
-images: [/assets/img/posts/art-gallery/range-blaster-blockbench/range_blaster_render2.png,/assets/img/posts/art-gallery/range-blaster-blockbench/range_blaster_render1.png]
+images: [ /assets/img/posts/art-gallery/range-blaster-blockbench/range_blaster_render2.png,
+          /assets/img/posts/art-gallery/range-blaster-blockbench/range_blaster_render1.png ]
 ---
 
 * 3D model and render of a [Range Blaster](https://splatoonwiki.org/wiki/Range_Blaster), from [*Splatoon*](https://splatoon.nintendo.com/). <br>

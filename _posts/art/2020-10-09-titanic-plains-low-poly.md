@@ -9,7 +9,7 @@ tail_includes: ''
 
 title: Titanic Plains - Low Poly
 tags: [3D,Blender,Unity]
-images: [/assets/img/posts/art-gallery/titanic-plains-low-poly/titanic_plains_low_poly_1.png]
+image: /assets/img/posts/art-gallery/titanic-plains-low-poly/titanic_plains_low_poly_1.png
 ---
 
 * 3D model and render of a low poly interpretation of the [Titanic Plains](https://riskofrain2.fandom.com/wiki/Titanic_Plains) from [*Risk of Rain 2*](https://www.riskofrain.com/). <br>

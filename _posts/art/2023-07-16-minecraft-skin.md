@@ -9,7 +9,7 @@ tail_includes: ''
 
 title: Minecraft Skin
 tags: [3D,Blockbench,Pixel Art]
-images: [/assets/img/posts/art-gallery/minecraft-skin/minecraft_skin_1.png]
+image: /assets/img/posts/art-gallery/minecraft-skin/minecraft_skin_1.png
 ---
 
 * Pixel art of a self-portrait [*Minecraft*](https://www.minecraft.net/) skin. <br>
