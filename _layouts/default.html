@@ -23,7 +23,11 @@ layout: compress
     {% include sidebar.html lang=lang %}
 
     <div id="main-wrapper" class="d-flex justify-content-center">
-      <div id="main" class="container px-xxl-5 {{ page.layout }}">
+      {% assign main_class = "container px-xxl-5" %}
+      {% if layout.add_class_main %}
+        {% assign main_class = main_class | append: " " | append: page.layout %}
+      {% endif %}
+      <div id="main" class= "{{main_class}}">
         {% include topbar.html lang=lang %}
         {{ content }}
         {% include search-results.html lang=lang %}
