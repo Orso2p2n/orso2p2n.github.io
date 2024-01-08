@@ -44,7 +44,7 @@ I was the main programmer working on this update, and thus developed most of its
 
 ### Training Room
 
-The [Training Room](https://deadcells.wiki.gg/wiki/Training_Room) was _the_ big feature of the update, and after a few brainstorms to define its contents, I was tasked with creating it. It is meant to be a sub-area of the first level, that the player can freely access in order to train with any weapon they want again any enemy/boss they want.
+The [Training Room](https://deadcells.wiki.gg/wiki/Training_Room) was _the_ big feature of the update, and after a few brainstorms to define its contents, I was tasked with creating it. It is meant to be a sub-area of the first level, that the player can freely access in order to train with any weapon against any enemy/boss they want.
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/25/Training_Room_Entrance.jpg)
 _Entrance to the Training Room, in the HUB area._
@@ -60,7 +60,7 @@ _Simplified map of the Training Room. Screenshots taken in Tiled._
 
 In order to make the Training Room work, a few systems had to be developed, notably:
 - Infinite weapon tubes that constantly generate new weapons.
-- Interactive obects that let the player choose which enemy to spawn.
+- Interactive objects that let the player choose which enemy to spawn.
 - Buttons to spawn/reset enemies.
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/25/Training_Room_Mobs.jpg)
@@ -68,7 +68,7 @@ _Mob statues can be interacted with to change their type. The button on the bott
 
 ### Aspects
 
-[Aspects](https://deadcells.wiki.gg/wiki/Aspects) are equippables buffs that the player can equip before starting a new game. Only one can be equipped. They function similarly to [Mutations](https://deadcells.wiki.gg/wiki/Mutations), but with way stronger effects. They also lock post-final-boss progression, and as such are meant as a way for players to have fun with overpowered effects, rather than a true way of progressing through the game.
+[Aspects](https://deadcells.wiki.gg/wiki/Aspects) are buffs that the player can equip before starting a new game. Only one can be equipped. They function similarly to [Mutations](https://deadcells.wiki.gg/wiki/Mutations), but with way stronger effects. They also lock post-final-boss progression, and as such are meant as a way for players to have fun with overpowered effects, rather than a true way of progressing through the game.
 
 Aspects are progressively unlocked as the player dies, with a new one being available after each death.
 
