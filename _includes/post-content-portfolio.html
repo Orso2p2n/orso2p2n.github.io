@@ -1,15 +1,34 @@
 <h1 data-toc-skip>{{ page.title }}</h1>
 
 <div class="post-meta text-muted">
-    <!-- published date -->
-    <span>
-      {{ site.data.locales[lang].post.posted }}
-      {% if page.date_override %}
-        <em class="">{{page.date_override}}</em>
-      {% else %}
-        {% include datetime.html date=page.date tooltip=true lang=lang %}
+  <!-- published date -->
+  <span>
+    {{ site.data.locales[lang].post.posted }}
+    {% if page.date_override %}
+      <em class="">{{page.date_override}}</em>
+    {% else %}
+      {% include datetime.html date=page.date tooltip=true lang=lang %}
+    {% endif %}
+  </span>
+
+  {% if page.image and page.show_image %}
+    {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+    {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+    {% capture alt %}alt="{{ page.image.alt | default: "Preview Image" }}"{% endcapture %}
+
+    {% capture lqip %}
+      {% if page.image.lqip %}
+        lqip="{{ page.image.lqip }}"
       {% endif %}
-    </span>
+    {% endcapture %}
+
+    <div class="mt-3 mb-3">
+      <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip | strip }}>
+      {%- if page.image.alt -%}
+        <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+      {%- endif -%}
+    </div>
+  {% endif %}
 </div> <!-- .post-meta -->
 
 <div class="post-content">
