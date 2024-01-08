@@ -24,7 +24,7 @@ Evil Empire was then founded by a few Motion Twin members as a means to keep dev
 
 Together with this new team, we developed updates 2.5 to 3.5, as well as the DLCs _Queen and the Sea_ and _Return to Castlevania_. 
 
-## Technologies Used
+## Technologies used
 
 You can find below a list of tools and softwares that programmers regularly interacted with throughout development. A lot of them are open-source, which means that we could create forks of the source code and add functionalities specific to _Dead Cells_ if needed.
 
@@ -43,7 +43,7 @@ You can find below a list of tools and softwares that programmers regularly inte
 [TexturePacker](https://www.codeandweb.com/texturepacker)
 : Spritesheet generator, used to compile art exports into a single texture.
 
-## Updates I Worked On
+## Updates I worked on
 
 <div markdown="0">
 <div id="dead-cells-list">
