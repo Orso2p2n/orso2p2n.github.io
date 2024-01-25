@@ -35,7 +35,7 @@ The 6 games we had the opportunity to work with were _Blasphemous_, _Curse of th
     - [Explorer's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Explorer's_Outfit).
   - _Guacamelee_:
     - [Pollo Power](https://deadcells.wiki.gg/wiki/Pollo_Power), turns the player into a bomb-laying chicken for a short time.
-    - [Luchador's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Luchador's_Outfit)
+    - [Luchador's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Luchador's_Outfit).
   - _Hollow Knight_:
     - [Pure Nail](https://deadcells.wiki.gg/wiki/Pure_Nail), the first weapon in the game with directional attacks. The aerial downward attack lets the player bounce on enemies.
     - [Vessel's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Vessel's_Outfit).
