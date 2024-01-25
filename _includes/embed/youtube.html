@@ -1,5 +1,11 @@
+{% assign url = include.id %}
+{% if include.t %}
+  {% assign url = url | append: '?start=' | append: include.t %}
+{% endif %}
+
+
 <iframe class="embed-video youtube lazyload"
-  src="https://www.youtube.com/embed/{{ include.id }}"
+  src="https://www.youtube.com/embed/{{ url }}"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

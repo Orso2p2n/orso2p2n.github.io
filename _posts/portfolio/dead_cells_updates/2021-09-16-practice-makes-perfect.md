@@ -26,13 +26,13 @@ The goal of the update was to add new quality of life features, in order to ease
 
 ### Notable additions and changes
 
-- **NEW** - Training Room
+- **NEW** - [Training Room](https://deadcells.wiki.gg/wiki/Training_Room)
   - New area in the first level of the game, where the player can go and train against different enemies and bosses, in a completely safe environment.
-- **NEW** - Aspects
+- **NEW** - [Aspects](https://deadcells.wiki.gg/wiki/Aspects)
   - New equippable items, only available before starting a new game, that have powerful effects designed to make the game easier.
-- **NEW** - World Map
+- **NEW** - [World Map](https://deadcells.wiki.gg/wiki/Biomes#Map)
   - Accessible through a button on the minimap, allows the player to see the connections between the different levels of the game.
-- **NEW** - Flawless Outfits
+- **NEW** - [Flawless Outfits](https://deadcells.wiki.gg/wiki/Outfits#Flawless_Concierge_Outfit)
   - Upon killing a boss without taking any damage, the player can unlock a golden outfit representing the boss.
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_2.5).
