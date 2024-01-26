@@ -62,7 +62,7 @@ In _Dead Cells_, the player can carry two weapons and three [mutations](https://
 
 I was tasked with implementing all three of the weapons above. Their overall mechanics were already designed, but I had creative liberty for their implementation and for some specific values (such as the amount of gold used by the Money shooter, or the duration of the Dagger of Profit buff.)
 
-## The Bank spawning mechanic
+### The Bank spawning mechanic
 
 ![](../../../assets/img/posts/portfolio/dead-cells-updates/28/bank_chest.png){: .right}
 
