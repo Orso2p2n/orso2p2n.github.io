@@ -80,7 +80,7 @@ There were still some problematic actions, that were solved not through rebindab
 
 _Note: unfortunately, some of these options do still require the player to hold down a button, as completely removing that scenario proved tricky. We settled on this middleground, where the important part was to offer an alternative to the players who might need it._
 
-### Customisable stats colors
+### Customizable stats colors
 
 _Dead Cells_ has 3 differents [stats](https://deadcells.wiki.gg/wiki/Stats) that the player can invest into: **Brutality**, **Tactics** and **Survival**. Those stats are present all throughout the game, and interact with of a lot of elements: the player's health scales with their stats, weapons all have assigned stats that their damage will scale on, etc.
 
@@ -100,6 +100,59 @@ _Different kinds of option widgets._
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/29/color_widget.gif){: width="600"}
 _Gif of interacting with the color widget._ 
+
+We then just had to take the color chosen by the player in the options, and apply it everywhere relevant. This worked out of the box for some elements, who were already built to be easily recolored, but most icons had to be reworked in order for them to work.
+
+We needed a way to easily recolor only certain parts of icons. By using a singular color channel (Red, Green or Blue) per stat, we could then use a custom shader to assign the user-chosen colors to the right stat.
+
+The first step to make this work was to change all the icons as follow:
+
+![](/assets/img/posts/portfolio/dead-cells-updates/29/scroll_recolor_schema.png)
+_Example of the icon edit process, using the "All Stats Up Scroll" icon._
+
+Then, when we need to use the icon in-game, we can grab it and its background, color it correctly using the shader, and display that.
+
+![](../../../assets/img/posts/portfolio/dead-cells-updates/29/scroll_recolor_schema_2.png)
+_Example of shader being applied to an icon._
+
+We apply this process to every icon that needs it. Some other elements might not have a background, so we just apply the shader accordingly. 
+
+![](/assets/img/posts/portfolio/dead-cells-updates/29/stat_recolor_comparison.png)
+_Comparison between options off and on._
+
+### Synergy icons
+
+In Dead Cells, weapons can apply a variety of [status effects](https://deadcells.wiki.gg/wiki/Status_effects), and sometimes even react to them, with effects such as ["Inflicts a critical hit if the target is bleeding or poisoned"](https://deadcells.wiki.gg/wiki/Sadist%27s_Stiletto).
+
+Weapons can also receive [affixes](https://deadcells.wiki.gg/wiki/Affixes), special attributes that make them more powerful or give them additional abilities. Similarly, those affixes can apply or react to special effects.
+
+This means that weapons and affixes can very often synergize with each other **via their status effects**. However, this was difficult to use effectively, as, the more affixes the weapons have, the more difficult it is to read the effects and understand their synergies.
+
+To remedy that problem and make it easier to understand, we added a system displaying icons next to the effect descriptions, representing what statuses they interact with. The icon also glows if there is a synergy happening in the player's current build.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/29/synergy_icons_comparison.png)
+_Comparison of a mid-game inventory, without and with the synergy icons enabled._
+
+The game uses an extensive database to store data for a number of its objects, including all weapons and affixes. In this database, we added a `synergy` entry for weapons and affixes. When adding `synergy` data, we specify what status effect it interacts with, and if it's a `trigger` (an effect like "Burns nearby enemies") or a `reaction` (an effect like "+40% damage to a burning target").
+
+Then, in-game, we use that `synergy` data to display the icons next to the effect descriptions. If we find both a `trigger` and `reaction` of the status effect in the player's inventory, we use the glowing version of the icon.
+
+All the icons were made by me, you can get a proper look at them below.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/29/synergy_icons.png)
+_All of the synergy icons, in order: bleed, poison, root, fire, oil, burning oil, ice, slow, shock and stun._
+
+### Other missions
+
+- Options to customize HUD tranparency and size.
+- HUD feedback for when a weapon will display critical strike.
+- System to limit the number of particles on screen, by only spawning a certain percentage of them. Can be tweaked in the options.
+- Options to change the text size of item names, item descriptions and dialogueS.
+- Option to increase the size of attack announces
+- Option to add a [colored filter to the background](https://deadcells.wiki.gg/wiki/Assist_Mode_and_Accessibility#Background_filter), with fully customizable color and opacity.
+- Added the [Adys](https://adysfont.com/en/) font to the font selection option.
+- Reworked the system that displays the head behind the body of the character during certain animations.
+- Reorganized the entirety of the options menu, to accomodate for all the new options and the addition of an "Accessibility" tab.
 
 ## Public reception
 
