@@ -152,7 +152,7 @@ Enemies have a list of attacks, each with a cooldown value and detection area. T
     linkStyle 4,6,8 stroke:salmon;
 ```
 
-The Mimic doesn't use this system. Instead, it has three different pools of attacks depending on his position in relation with the player: `CloseRange`, `MidRange` and `LongRange`. Those pools are then filled with his 4 basic attacks:
+The Mimic doesn't use this system. Instead, it has three different pools of attacks depending on its position in relation with the player: `CloseRange`, `MidRange` and `LongRange`. Those pools are then filled with its 4 basic attacks:
 <details><summary><b>Bite</b></summary>
   <div markdown=1>
   ![](/assets/img/posts/portfolio/dead-cells-updates/28/mimic_bite.gif)
@@ -219,7 +219,7 @@ Additionally, the Mimic gains one more move, depending on the kind of item it at
 </details>
 <br>
 
-Moves added to pool are also given a `weight` that defines how likely each of them is to be triggered.
+Moves added to a pool are also given a `weight` that defines how likely each of them is to be triggered.
 
 > For example, while both **Bite** and **Tongue Lash** are added to the `CloseRange` pool, **Bite** get assigned a bigger weight, as its speed and range make it more pertinent to use at close range.
 {: .prompt-info }
