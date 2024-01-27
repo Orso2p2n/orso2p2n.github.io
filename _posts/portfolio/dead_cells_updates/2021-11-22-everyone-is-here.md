@@ -20,7 +20,7 @@ invisible: true
 
 ## Introduction
 
-Update 2.6, officially named **Everyone is Here**, a crossover with 6 other indie games, with the goal of bringing items and outfits inspired by those games into _Dead Cells_.
+Update 2.6, officially named **Everyone is Here**, was a crossover with 6 other indie games, with the goal of bringing items and outfits inspired by those games into _Dead Cells_.
 
 The 6 games we had the opportunity to work with were _Blasphemous_, _Curse of the Dead Gods_, _Guacamelee_, _Hollow Knight_, _Hyper Light Drifter_ and _Skul_.
 
