@@ -39,13 +39,13 @@ _Screenshot of the game with the "customizable outlines" option on._
 
 ## What I worked on
 
-I was the main programmer on this update, and I am very proud oh the accessibility options we were able to bring to the game.
+I was the main programmer on this update, and I am very proud of the accessibility options we were able to bring to the game.
 
 Before starting the development of the update, we [opened a conversation with the _Dead Cells_ community](https://twitter.com/motiontwin/status/1483059164901433345), and gathered as much feedback as we could, allowing us to get an extensive list of potential features, that we sorted by relevance and difficulty of implementation. 
 
-We had two major guidelines that we tried to follow as close as possible during development: **add as many features as possible** and make them **as customizable as possible**. If a feature could help at least one person, then it was worth looking into.
+We had two major guidelines that we followed closely during development: **add as many features as we could** and make them **as customizable as possible**. If a feature could help at least one person, then it was worth looking into.
 
-As development continued, we reached out to [AbleGamers](https://ablegamers.org/) and organized a test panel with them. They gave us very valuable feedback that we applied as thoroughly as possible, and it helped us correct some things that we missed.
+As development continued, we reached out to [AbleGamers](https://ablegamers.org/) and organized a test panel with them. They gave us very valuable feedback that we applied thoroughly, and it helped us correct some things that we missed.
 
 ### Input options
 
@@ -70,7 +70,7 @@ Additionally, both controller sticks and the D-Pad had one function and one func
 
 Opening such input customization is the key to making the game work with any kind of controller.
 
-There were still some problematic actions, that were solved not through rebindable inputs, but by adding ways to bypass them entirely:
+There were still some problems with other actions, that were solved not through rebindable inputs, but by adding ways to bypass them entirely:
 
 | Action               | Problematic input                                                                 | Implemented solution                                                               |
 | -------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -78,7 +78,7 @@ There were still some problematic actions, that were solved not through rebindab
 | Chaining rolls       | The player is sometimes required to press the Roll button multiple times in a row | "Hold to roll" option. The character will roll as long as the Roll button is held  |
 | Holding a shield out | Requires the player to hold down the Shield button                                | "Toggle shield" option. The shield will stay out until the button is pressed again |
 
-_Note: unfortunately, some of these options do still require the player to hold down a button, as completely removing that scenario proved tricky. We settled on this middleground, where the important part was to offer an alternative to the players who might need it._
+_Note: unfortunately, some of these options do still require the player to hold down a button, as completely removing that scenario proved to be tricky. We settled on this middle ground, where the important part was to offer an alternative to the players who might need it._
 
 ### Customizable stats colors
 
@@ -91,7 +91,7 @@ _Menu where the player can choose which stat to increase, upon picking up a scro
 
 Each stat is represented by an icon and a color. <span style="color:salmon">Brutality</span> is red, <span style="color:plum">Tactics</span> is purple and <span style="color:palegreen">Survival</span> is green.
 
-Even though each stat has an icon associated to it, sometimes only the color is used, and thus, to ensure maximum readability for everyone, we added an option to freely change their colors.
+Even though each stat has an icon associated with it, sometimes only the color is used, and thus, to ensure maximum readability for everyone, we added an option to freely change their colors.
 
 We had to add a new option widget that lets the player choose a color. Option widgets are elements that the player can interact with to change a value. They exist in multiple forms: checkbox, radio buttons, list, or even slider. The color widget is new to this update and was used in every place where the player needs to personalize a color.
 
@@ -101,11 +101,11 @@ _Different kinds of option widgets._
 ![](/assets/img/posts/portfolio/dead-cells-updates/29/color_widget.gif){: width="600"}
 _Gif of interacting with the color widget._ 
 
-We then just had to take the color chosen by the player in the options, and apply it everywhere relevant. This worked out of the box for some elements, who were already built to be easily recolored, but most icons had to be reworked in order for them to work.
+We then just had to take the color chosen by the player in the options, and apply it everywhere relevant. This worked out of the box for some elements, which were already built to be easily recolored, but most icons had to be reworked in order for them to work.
 
 We needed a way to easily recolor only certain parts of icons. By using a singular color channel (Red, Green or Blue) per stat, we could then use a custom shader to assign the user-chosen colors to the right stat.
 
-The first step to make this work was to change all the icons as follow:
+The first step in making this work was to change all the icons as follows:
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/29/scroll_recolor_schema.png)
 _Example of the icon edit process, using the "All Stats Up Scroll" icon._
