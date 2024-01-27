@@ -51,3 +51,37 @@ _All outfits, in order._
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_3.2).
 {: .prompt-info }
+
+## What I worked on
+
+### Risk of Rain 2 content
+
+While I did not get to implement anything, I was in charge of designing the weapon, as well as being the go-to person for visual feedbacks, due to my extensive knowledge of the game.
+
+The [Laser Glaive](https://deadcells.wiki.gg/wiki/Laser_Glaive) is a reference to the secondary ability of the [Huntress](https://riskofrain2.fandom.com/wiki/Huntress), one of the playable characters of _Risk of Rain 2_. Its behavior is pretty much a one-to-one recreation, up to the damage increase between bounces.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/32/laser_glaive.gif)
+_Gif of the Laser Glaive being used in-game._
+
+![](/assets/img/posts/portfolio/dead-cells-updates/32/huntress_commando.png){: width="125" .right}
+
+We wanted to take inpiration from a _Risk of Rain 2_ character, as they are, for the most part, the most iconic things in the game. The Huntress and the [Commando](https://riskofrain2.fandom.com/wiki/Commando) are the two playable characters who are unlocked by default, making them and their abilities very recognizable.
+
+After taking a look at all the abilities of those two characters, our choice landed on the Laser Glaive, as it was easy to adapt and didn't clash with any weapon already present in _Dead Cells_.
+
+### Starfury
+
+![](/assets/img/posts/portfolio/dead-cells-updates/32/starfury_terraria.png){: .right}
+
+I was in charge of implementing the [Starfury](https://deadcells.wiki.gg/wiki/Starfury). This weapon is inspired by the [sword of the same name](https://terraria.fandom.com/wiki/Starfury) in _Terraria_, which has a similar effect. 
+
+On hit, the weapon summons a shooting star off-screen, that falls down on a near enemy. This projectile is seeking and ignores collisions (unless it misses its target, which can happen if it dies or moves around too quickly, in which case the projectile will crash on the ground).
+
+![](/assets/img/posts/portfolio/dead-cells-updates/32/starfury.gif)
+_Gif of the Starfury being used in-game._
+
+While one of the artist took care of the weapon model and character animation, I handled the visual part of the projectile, including the trail, visual feedbacks, particles and explosion effect.
+
+### Minor missions
+
+- Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.2#Bug_fixes).
