@@ -42,7 +42,7 @@ The 6 games we had the opportunity to work with were _Shovel Knight_, _Hotline M
   - _Terraria_:
     - [Starfury](https://deadcells.wiki.gg/wiki/Starfury), hitting with this weapon summons a falling star that targets a nearby enemy.
     - [Familiar Outfit](https://deadcells.wiki.gg/wiki/Outfits#Familiar_Outfit).
-  - _Slay the Spire_
+  - _Slay the Spire_:
     - [Diverse Deck](https://deadcells.wiki.gg/wiki/Diverse_Deck), one of the most complicated skills in the game. The deck is composed of 4 different cards, each with a Draw, Passive and Discard effect. The current card has its Passive in effect permanently, pressing the button will Discard it and Draw the next one, triggering the corresponding effects.
     - [Ironclad Outfit](https://deadcells.wiki.gg/wiki/Outfits#Ironclad_Outfit).
 
