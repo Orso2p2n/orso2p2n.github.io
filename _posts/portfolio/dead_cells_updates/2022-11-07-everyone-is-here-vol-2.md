@@ -27,7 +27,7 @@ The 6 games we had the opportunity to work with were _Shovel Knight_, _Hotline M
 ### Notable additions and changes
 
 - **NEW** - Crossover content: one new weapon per game, as well as an outfit inspired by their main character.
-  - _Hollow Knight_:
+  - _Shovel Knight_:
     - [King Scepter](https://deadcells.wiki.gg/wiki/King_Scepter), inspired by King Knight, makes the player dash forward, enter a spinning state if they touch anything, and let them bounce around on enemies.
     - [Shovel Knight Outfit](https://deadcells.wiki.gg/wiki/Outfits#Shovel_Knight_Outfit).
   - _Hotline Miami_:
