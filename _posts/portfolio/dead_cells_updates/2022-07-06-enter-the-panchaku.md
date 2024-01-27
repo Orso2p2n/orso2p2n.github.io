@@ -48,7 +48,7 @@ The _Dead Cells_ main character is composed of 2 parts:
 - The head, a clump of real-time generated particles meant to resemble smoke.
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/30/body_with_no_head.png)
-_Dead Cells' character's body, without the head._
+_Dead Cells' main character's body, without the head._
 
 > Some special outfits, like the [Winter Outfit](https://deadcells.wiki.gg/wiki/Outfits#Winter_Outfit) or the [Cultist Outfit](https://deadcells.wiki.gg/wiki/Outfits#Cultist_Outfit), disable the particle head entirely, as it is instead part of the body's 3D model.
 {: .prompt-info }
