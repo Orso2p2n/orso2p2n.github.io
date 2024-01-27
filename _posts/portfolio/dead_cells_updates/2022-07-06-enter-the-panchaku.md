@@ -83,3 +83,7 @@ Some legendary affixes I took care of implementing were:
 - **Echo**, for the [Cluster Grenade](https://deadcells.wiki.gg/wiki/Cluster_Grenade) or [Magnetic Grenade](https://deadcells.wiki.gg/wiki/Magnetic_Grenade).
   - The grenade triggers its explosion a second time a short time after triggering it once.
   - Similarly to the Double or Triple Bullets, the effect acts slightly differently for each grenade.
+
+### Minor missions
+
+- Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.0#Bug_fixes).
