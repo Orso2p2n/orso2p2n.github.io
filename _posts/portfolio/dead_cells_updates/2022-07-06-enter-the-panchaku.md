@@ -27,7 +27,7 @@ Update 3.0, officially named **Enter the Panchaku**, was a minor update that did
 - **NEW** - [Weapon](https://deadcells.wiki.gg/wiki/Panchaku) and [outfit](https://deadcells.wiki.gg/wiki/Outfits#Trailer_Bobby_Outfit) inspired by the [animated trailer for the Bad Seed DLC](https://youtu.be/MqlDDiEL6tE)
   - The Panchaku and Bobby Outfit were long awaited community suggestions, and were finally added to the game.
 - **NEW** - Crossover content with _Soul Knight_
-  - A weapon and outfit in collaboration with _Soul Knight_. This content was originally developed for the mobile version of _Dead Cells_, and was brought to all platforms in this update.
+  - A [weapon](https://deadcells.wiki.gg/wiki/Magic_Bow) and [outfit](https://deadcells.wiki.gg/wiki/Outfits#Knight's_Outfit) in collaboration with _Soul Knight_. This content was originally developed for the mobile version of _Dead Cells_, and was brought to all platforms in this update.
 - **REWORK** - [Legendary items](https://deadcells.wiki.gg/wiki/Gear#Legendary_items)
   - Legendary items now have special unique affixes that specifically interacts and improves their effect.
 
