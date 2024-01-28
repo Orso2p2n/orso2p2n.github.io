@@ -44,7 +44,7 @@ _Gif of a player using the Panchaku while wearing the Bobby Outfit._
 The Bobby Outfit had a special feature, as it included a custom animated flame as a head.
 
 The _Dead Cells_ main character is composed of 2 parts:
-- The body, [animated in 3D and exported as pixel art](https://www.gamedeveloper.com/production/art-design-deep-dive-using-a-3d-pipeline-for-2d-animation-in-i-dead-cells-i-)
+- The body, [animated in 3D and exported as pixel art](https://www.gamedeveloper.com/production/art-design-deep-dive-using-a-3d-pipeline-for-2d-animation-in-i-dead-cells-i-).
 - The head, a clump of real-time generated particles meant to resemble smoke.
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/30/body_with_no_head.png)
