@@ -43,7 +43,7 @@ _Screenshot of a player next to a Doom Bringer._
 
 ### Mobs skills rework
 
-Before update 3.5, the programming team took a month to do a big cleanup of the game's codebase, who was becoming more and more bloated, as well as a rework of a lot of systems to make them more viable long-term or easier to use.
+Before update 3.5, the programming team took a month to do a big cleanup of the game's codebase, which was becoming more and more bloated, as well as a rework of a lot of systems to make them more viable long-term or easier to use.
 
 My biggest work during that time was a full rework of the skill system that the mobs use for their attacks, with two major objectives in mind:
 - Make them as data-driven as possible.

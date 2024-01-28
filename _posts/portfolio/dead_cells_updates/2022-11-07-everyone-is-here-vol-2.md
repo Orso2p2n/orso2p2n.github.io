@@ -26,25 +26,24 @@ The 6 games we had the opportunity to work with were _Shovel Knight_, _Hotline M
 
 ### Notable additions and changes
 
-- **NEW** - Crossover content: one new weapon per game, as well as an outfit inspired by their main character.
-  - _Shovel Knight_:
-    - [King Scepter](https://deadcells.wiki.gg/wiki/King_Scepter), inspired by King Knight, makes the player dash forward, enter a spinning state if they touch anything, and let them bounce around on enemies.
-    - [Shovel Knight Outfit](https://deadcells.wiki.gg/wiki/Outfits#Shovel_Knight_Outfit).
-  - _Hotline Miami_:
-    - [Baseball Bat](https://deadcells.wiki.gg/wiki/Baseball_Bat), a fast weapon that inflicts critical damage on stunned enemies (with a special animation!).
-    - [Modernized Bomber Outfit](https://deadcells.wiki.gg/wiki/Outfits#Modernized_Bomber_Outfit).
-  - _Katana Zero_:
-    - [Throwable Objects](https://deadcells.wiki.gg/wiki/Throwable_Objects), fast-moving projectiles that stun enemies, with ammo that refills on kill.
-    - [Zero Outfit](https://deadcells.wiki.gg/wiki/Outfits#Zero_Outfit).
-  - _Risk of Rain 2_:
-    - [Laser Glaive](https://deadcells.wiki.gg/wiki/Laser_Glaive), throws a seeking projectile that bounces between enemies, with increased damage with each bounce.
-    - [Commando Outfit](https://deadcells.wiki.gg/wiki/Outfits#Commando_Outfit).
-  - _Terraria_:
-    - [Starfury](https://deadcells.wiki.gg/wiki/Starfury), hitting with this weapon summons a falling star that targets a nearby enemy.
-    - [Familiar Outfit](https://deadcells.wiki.gg/wiki/Outfits#Familiar_Outfit).
-  - _Slay the Spire_:
-    - [Diverse Deck](https://deadcells.wiki.gg/wiki/Diverse_Deck), one of the most complicated skills in the game. The deck is composed of 4 different cards, each with a Draw, Passive and Discard effect. The current card has its Passive in effect permanently, pressing the button will Discard it and Draw the next one, triggering the corresponding effects.
-    - [Ironclad Outfit](https://deadcells.wiki.gg/wiki/Outfits#Ironclad_Outfit).
+- **NEW** - _Shovel Knight_ content:
+  - [King Scepter](https://deadcells.wiki.gg/wiki/King_Scepter), inspired by King Knight, makes the player dash forward, enter a spinning state if they touch anything, and let them bounce around on enemies.
+  - [Shovel Knight Outfit](https://deadcells.wiki.gg/wiki/Outfits#Shovel_Knight_Outfit).
+- **NEW** - _Hotline Miami_ content:
+  - [Baseball Bat](https://deadcells.wiki.gg/wiki/Baseball_Bat), a fast weapon that inflicts critical damage on stunned enemies (with a special animation!).
+  - [Modernized Bomber Outfit](https://deadcells.wiki.gg/wiki/Outfits#Modernized_Bomber_Outfit).
+- **NEW** - _Katana Zero_ content:
+  - [Throwable Objects](https://deadcells.wiki.gg/wiki/Throwable_Objects), fast-moving projectiles that stun enemies, with ammo that refills on kill.
+  - [Zero Outfit](https://deadcells.wiki.gg/wiki/Outfits#Zero_Outfit).
+- **NEW** - _Risk of Rain 2_ content:
+  - [Laser Glaive](https://deadcells.wiki.gg/wiki/Laser_Glaive), throws a seeking projectile that bounces between enemies, with increased damage with each bounce.
+  - [Commando Outfit](https://deadcells.wiki.gg/wiki/Outfits#Commando_Outfit).
+- **NEW** - _Terraria_ content:
+  - [Starfury](https://deadcells.wiki.gg/wiki/Starfury), hitting with this weapon summons a falling star that targets a nearby enemy.
+  - [Familiar Outfit](https://deadcells.wiki.gg/wiki/Outfits#Familiar_Outfit).
+- **NEW** - _Slay the Spire_ content:
+  - [Diverse Deck](https://deadcells.wiki.gg/wiki/Diverse_Deck), one of the most complicated skills in the game. The deck is composed of 4 different cards, each with a Draw, Passive and Discard effect. The current card has its Passive in effect permanently, pressing the button will Discard it and Draw the next one, triggering the corresponding effects.
+  - [Ironclad Outfit](https://deadcells.wiki.gg/wiki/Outfits#Ironclad_Outfit).
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/32/32_all_outfits.png)
 _All outfits, in order._

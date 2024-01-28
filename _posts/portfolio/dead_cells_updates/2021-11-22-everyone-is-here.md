@@ -26,25 +26,24 @@ The 6 games we had the opportunity to work with were _Blasphemous_, _Curse of th
 
 ### Notable additions and changes
 
-- **NEW** - Crossover content: one new weapon per game, as well as an outfit inspired by their main character.
-  - _Blasphemous_:
-    - [Face Flask](https://deadcells.wiki.gg/wiki/Face_Flask), a niche weapon that inflicts a small amount of damage to the player upon activation.
-    - [Penitent's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Penitent's_Outfit).
-  - _Curse of the Dead Gods_:
-    - [Machete and Pistol](https://deadcells.wiki.gg/wiki/Machete_and_Pistol), slashes with the machete twice, then shoots with the pistol once.
-    - [Explorer's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Explorer's_Outfit).
-  - _Guacamelee_:
-    - [Pollo Power](https://deadcells.wiki.gg/wiki/Pollo_Power), turns the player into a bomb-laying chicken for a short time.
-    - [Luchador's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Luchador's_Outfit).
-  - _Hollow Knight_:
-    - [Pure Nail](https://deadcells.wiki.gg/wiki/Pure_Nail), the first weapon in the game with directional attacks. The aerial downward attack lets the player bounce on enemies.
-    - [Vessel's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Vessel's_Outfit).
-  - _Hyper Light Drifter_:
-    - [Hard Light Sword / Hard Light Gun](https://deadcells.wiki.gg/wiki/Hard_Light_Sword), a two handed weapon(s) that work in synergy with itself. Shoot projectiles at enemies with the gun, and hit them with the sword to regenerate ammo.
-    - [The Magician's Outfit](https://deadcells.wiki.gg/wiki/Outfits#The_Magician's_Outfit).
-  - _Skul_
-    - [Bone](https://deadcells.wiki.gg/wiki/Bone), hitting with this club sends the player into a powerful whirlwind attack.
-    - [Little Bone's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Little_Bone's_Outfit).
+- **NEW** - _Blasphemous_ content:
+  - [Face Flask](https://deadcells.wiki.gg/wiki/Face_Flask), a niche weapon that inflicts a small amount of damage to the player upon activation.
+  - [Penitent's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Penitent's_Outfit).
+- **NEW** - _Curse of the Dead Gods_:
+  - [Machete and Pistol](https://deadcells.wiki.gg/wiki/Machete_and_Pistol), slashes with the machete twice, then shoots with the pistol once.
+  - [Explorer's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Explorer's_Outfit).
+- **NEW** - _Guacamelee_ content:
+  - [Pollo Power](https://deadcells.wiki.gg/wiki/Pollo_Power), turns the player into a bomb-laying chicken for a short time.
+  - [Luchador's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Luchador's_Outfit).
+- **NEW** - _Hollow Knight_ content:
+  - [Pure Nail](https://deadcells.wiki.gg/wiki/Pure_Nail), the first weapon in the game with directional attacks. The aerial downward attack lets the player bounce on enemies.
+  - [Vessel's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Vessel's_Outfit).
+- **NEW** - _Hyper Light Drifter_ content:
+  - [Hard Light Sword / Hard Light Gun](https://deadcells.wiki.gg/wiki/Hard_Light_Sword), a two handed weapon(s) that work in synergy with itself. Shoot projectiles at enemies with the gun, and hit them with the sword to regenerate ammo.
+  - [The Magician's Outfit](https://deadcells.wiki.gg/wiki/Outfits#The_Magician's_Outfit).
+- **NEW** - _Skul_ content:
+  - [Bone](https://deadcells.wiki.gg/wiki/Bone), hitting with this club sends the player into a powerful whirlwind attack.
+  - [Little Bone's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Little_Bone's_Outfit).
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/26/26_all_outfits.png)
 _All outfits, in order._
