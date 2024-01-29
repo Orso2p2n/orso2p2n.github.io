@@ -15,6 +15,8 @@ image: /assets/img/posts/portfolio/dead-cells-updates/33/header.png
 date: 2023-03-06
 tags: [Programming,Haxe]
 invisible: true
+
+mermaid: true
 ---
 
 ## Introduction
@@ -50,6 +52,110 @@ It is an official crossover with [Konami](https://www.konami.com/en/) and the [C
   - An alternate game mode unlocked after completing the DLC's storyline, where the player gets to control [Richter](https://deadcells.wiki.gg/wiki/Richter) through a Castlevania-inspired map, unlocking upgrades and making their way to [Medusa](https://deadcells.wiki.gg/wiki/Medusa).
 
 {% include embed/youtube.html id='56n3spvD2M0' %}
+
+> A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_3.3).
+{: .prompt-info }
+
+## What I worked on
+
+### Dracula's Castle
+
+At the time, the _Dead Cells_ dev team was composed of four artists and four programmers. The main features were the two biomes and three bosses, and they were split between four duos of one programmer and one artist.
+
+Alongside one of the artists, we took care of the entirety of Dracula's Castle. While their role was to create everything artistic related to the biome (concept arts, key arts, in-game assets...), I took care of:
+- Designing and implementing the level structure.
+- Creating all the rooms in Tiled.
+- Implementing the artist's assets according to their intentions.
+- Designing and implementing the unique mechanics of the biome.
+- Anything else technical related to the biome.
+
+#### Unique mechanics
+
+Dracula's Castle is unique in two ways.
+
+Firstly, it's the only biome in the game that can appear at two different points in the run. At first, it can only appear at the beginning of a run, right before the first boss, in which case it will lead to Death.
+
+Once Death is defeated, it will start appearing as a replacement to the last biome, before the last boss. In that case, the level will be bigger, introduce a mandatory mini-boss, and the exit door will lead to Dracula. 
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/draculas_castle_maps_comparison.png)
+_To the left, the map of early game Dracula's Castle. To the right, the map of late game Dracula's Castle._
+
+Secondly, it's the only biome in the game that can loop on itself, due to its unique level structure.
+
+#### Level structure
+
+The level structure of a biome is the first step of its procedural generation. It can be represented by a tree of nodes connected to each other.
+
+Each node can have one parent and multiple children, as well as a `type`. 
+
+When generating a biome, the node tree will be generated based on the rules defined in code. 
+
+Example of a node tree:
+
+```mermaid
+  graph LR
+
+  classDef entrance fill:DarkSlateGray
+  classDef corridor fill:DarkSlateBlue
+  classDef combat fill:DarkRed
+  classDef exit fill:DarkOliveGreen
+
+  entrance1(("Entrance")):::entrance
+  corridor1(("Corridor")):::corridor
+  combat1(("Combat")):::combat
+  combat2(("Combat")):::combat
+
+  branch1(("Corridor")):::corridor
+
+  combat3(("Combat")):::combat
+  combat4(("Combat")):::combat
+  combat5(("Combat")):::combat
+  exit1(("Exit 1")):::exit
+
+  combat6(("Combat")):::combat
+  combat7(("Combat")):::combat
+
+  branch2(("Corridor")):::corridor
+
+  combat9(("Combat")):::combat
+  corridor3(("Corridor")):::corridor
+
+  combat10(("Combat")):::combat
+  combat11(("Combat")):::combat
+  exit2(("Exit 2")):::exit
+
+
+  entrance1-->corridor1
+  corridor1-->combat1
+  combat1-->combat2
+  combat2-->branch1
+
+  branch1-->combat3
+  combat3-->combat4
+  combat4-->combat5
+  combat5-->exit1
+
+  branch1-->combat6
+  combat6-->combat7
+  combat7-->branch2
+
+  branch2-->combat9
+  combat9-->corridor3
+
+  branch2-->combat10
+  combat10-->combat11
+  combat11-->exit2
+```
+> "Combat" are rooms where enemies can spawn, "Corridor" are rooms with no enemies.
+{: .prompt-info }
+
+Then, each node will be replaced by a room.
+
+The room used is randomly chosen base on the `type` of the node, as well as the number of children of the node. Every room in the game has a certain number of entrances and exits, defined in Tiled, that will determine how they get connected to each other.
+
+Example generation from the node tree above, using rooms from [Prisoners' Quarters](https://deadcells.wiki.gg/wiki/Prisoners%27_Quarters):
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/level_generation_example.png)
 
 ## Official videos
 
