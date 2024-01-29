@@ -45,8 +45,7 @@ The 6 games we had the opportunity to work with were _Shovel Knight_, _Hotline M
   - [Diverse Deck](https://deadcells.wiki.gg/wiki/Diverse_Deck), one of the most complicated skills in the game. The deck is composed of 4 different cards, each with a Draw, Passive and Discard effect. The current card has its Passive in effect permanently, pressing the button will Discard it and Draw the next one, triggering the corresponding effects.
   - [Ironclad Outfit](https://deadcells.wiki.gg/wiki/Outfits#Ironclad_Outfit).
 
-![](/assets/img/posts/portfolio/dead-cells-updates/32/32_all_outfits.png)
-_All outfits, in order._
+{% include embed/youtube.html id='A_kmohIc-b4' %}
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_3.2).
 {: .prompt-info }

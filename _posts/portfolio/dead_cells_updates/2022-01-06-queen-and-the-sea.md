@@ -37,8 +37,7 @@ Following its predecessors, this DLC aims to add new content. The first DLC adde
   - 2 Ranged weapons.
   - 2 Skills.
 
-![](/assets/img/posts/portfolio/dead-cells-updates/27/servants_fight.jpg)
-_The Servants trying to stop the player from climbing the lighthouse._
+{% include embed/youtube.html id='AvS0JdWMjqw' %}
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_2.7).
 {: .prompt-info }

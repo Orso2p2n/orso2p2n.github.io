@@ -45,8 +45,7 @@ The 6 games we had the opportunity to work with were _Blasphemous_, _Curse of th
   - [Bone](https://deadcells.wiki.gg/wiki/Bone), hitting with this club sends the player into a powerful whirlwind attack.
   - [Little Bone's Outfit](https://deadcells.wiki.gg/wiki/Outfits#Little_Bone's_Outfit).
 
-![](/assets/img/posts/portfolio/dead-cells-updates/26/26_all_outfits.png)
-_All outfits, in order._
+{% include embed/youtube.html id='rUb-6F1TV6M' %}
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_2.6).
 {: .prompt-info }

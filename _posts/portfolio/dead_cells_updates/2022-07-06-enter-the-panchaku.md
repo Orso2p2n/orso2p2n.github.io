@@ -31,8 +31,7 @@ Update 3.0, officially named **Enter the Panchaku**, was a minor update that did
 - **REWORK** - [Legendary items](https://deadcells.wiki.gg/wiki/Gear#Legendary_items)
   - Legendary items now have special unique affixes that specifically interacts and improves their effect.
 
-![](/assets/img/posts/portfolio/dead-cells-updates/30/bobby_panchaku.gif)
-_Gif of a player using the Panchaku while wearing the Bobby Outfit._
+{% include embed/youtube.html id='zlPJBqtiZKc' %}
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_3.0).
 {: .prompt-info }

@@ -37,8 +37,7 @@ Update 2.8, officially named **Break the Bank**, was focused on adding new mecha
 - **NEW** - [Mimic](https://deadcells.wiki.gg/wiki/Mimic)
   - A mini-boss that can appear in the Bank, randomly replacing one of the [shops](https://deadcells.wiki.gg/wiki/Shops) and attacking the player if they try buying anything.
 
-![](../../../assets/img/posts/portfolio/dead-cells-updates/28/bank.png)
-_Screenshot of the entrance to the Bank._
+{% include embed/youtube.html id='Ra1_wvRXZkI' %}
 
 > A full list of changes can be found on the [Dead Cells Wiki](https://deadcells.wiki.gg/wiki/Version_2.8).
 {: .prompt-info }
