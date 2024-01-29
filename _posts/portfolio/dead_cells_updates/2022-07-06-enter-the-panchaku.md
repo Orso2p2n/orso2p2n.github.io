@@ -86,3 +86,9 @@ Some legendary affixes I took care of implementing were:
 ### Minor missions
 
 - Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.0#Bug_fixes).
+- 
+## Official videos
+
+#### Dev Thoughts
+
+{% include embed/youtube.html id='HbDcWYRv9pM' %}

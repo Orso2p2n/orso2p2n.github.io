@@ -161,3 +161,9 @@ Apart from DLCs, this was one of the rare instances of a free update escaping "c
 Articles praising the update can be found on [Eurogamer](https://www.eurogamer.net/dead-cells-big-accessibility-focused-breaking-barriers-update-out-now), [Polygon](https://www.polygon.com/23180668/dead-cells-difficulties-accessibility-options-motion-twin), [PC Gamer](https://www.pcgamer.com/dead-cells-is-getting-accessibility-features-including-an-assist-mode/) or even [Nintendo Life](https://www.nintendolife.com/news/2022/06/dead-cells-accessibility-focused-update-adds-assist-mode-difficulty-options-and-more). It was also covered by [Steve Saylor](https://en.wikipedia.org/wiki/Steve_Saylor), a game critic and Accessibility Advocate.
 
 {% include embed/youtube.html id='72WpfHrXuXs' %}
+
+## Official videos
+
+#### Dev Thoughts
+
+{% include embed/youtube.html id='joDnuQaGXsg' %}

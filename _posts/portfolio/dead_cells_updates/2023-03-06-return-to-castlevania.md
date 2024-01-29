@@ -50,3 +50,21 @@ It is an official crossover with [Konami](https://www.konami.com/en/) and the [C
   - An alternate game mode unlocked after completing the DLC's storyline, where the player gets to control [Richter](https://deadcells.wiki.gg/wiki/Richter) through a Castlevania-inspired map, unlocking upgrades and making their way to [Medusa](https://deadcells.wiki.gg/wiki/Medusa).
 
 {% include embed/youtube.html id='56n3spvD2M0' %}
+
+## Official videos
+
+#### Game Awards Animated Trailer
+
+{% include embed/youtube.html id='Eu3zfCDbRoU' %}
+
+#### Teaser
+
+{% include embed/youtube.html id='q10fKa_MkW0' %}
+
+#### Launch Date Trailer
+
+{% include embed/youtube.html id='QBBwIHYm8Mw' %}
+
+#### Richter Mode Reveal
+
+{% include embed/youtube.html id='CsAyUBexG78' %}

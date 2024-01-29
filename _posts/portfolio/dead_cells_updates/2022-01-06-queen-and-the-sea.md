@@ -104,3 +104,13 @@ _On the left, screenshot of Undying Shores. On the right, screenshot of the tran
   - On my first time testing the fight, I managed to easily cheese it by using knockback weapons and constanly pushing her off the side of the arena, dealing damage to her. I later implemented a system that detects the number of times the Queen has been thrown off, and [teleports her back on the arena](https://deadcells.wiki.gg/wiki/The_Queen#Knockback/CC) with a special attack and dialogue if the player attempts that strategy too many times.
 
 - Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_2.7#Bug_fixes).
+
+## Official videos
+
+#### Teaser Trailer
+
+{% include embed/youtube.html id='TLjfeJ5TIMg' %}
+
+#### Animated Trailer
+
+{% include embed/youtube.html id='ezDxvFUxDvc' %}
