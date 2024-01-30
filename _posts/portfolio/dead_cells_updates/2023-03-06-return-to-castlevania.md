@@ -231,7 +231,7 @@ _A melee axe swing, and an axe throw that goes through collisions._
 ### Minor missions
 
 - [Death's Scythe](https://deadcells.wiki.gg/wiki/Death%27s_Scythe) and [Medusa's Head](https://deadcells.wiki.gg/wiki/Medusa%27s_Head).
-- [Balancing](https://deadcells.wiki.gg/wiki/Version_3.3#Balancing), notably on items added in [update 3.2](portfolio/dead-cells-updates/everyone-is-here-vol-2).
+- [Balancing](https://deadcells.wiki.gg/wiki/Version_3.3#Balancing), notably on items added in [update 3.2](/portfolio/dead-cells-updates/everyone-is-here-vol-2/).
 - Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.3#Bug_fixes).
 
 ## Official videos
