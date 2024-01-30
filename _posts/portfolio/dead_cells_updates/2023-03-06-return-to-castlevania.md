@@ -198,6 +198,41 @@ And with that, we get a level structure that loops on itself.
 ![](../../../assets/img/posts/portfolio/dead-cells-updates/33/draculas_casltle_final_level_structure.png)
 _Screenshot of the map of Dracula's Castle in-game, with the Entrance, Landmark rooms and Exit highlighted._
 
+### Medusa
+
+[Medusa](https://deadcells.wiki.gg/wiki/Medusa) is a mini-boss, appearing in the late-run version of Dracula's Castle, and guarding the door to the exit.
+
+It is a simple mini-boss, with only three attacks.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/medusa_flurry.gif)
+_A flurry of scratches that lasts for as long as the player gets hit._
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/medusa_tail.gif)
+_A long distance tail attack._
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/medusa_look.gif)
+_A giant cone of vision, where the player gets pertrified if they look at it._
+
+### Axe Armor
+
+The [Axe Armor](https://deadcells.wiki.gg/wiki/Axe_Armor) is a special enemy that only spawns in Dracula's Castle.
+
+It hides among the statues of the castle, and appears once the player gets close enough.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/axe_armor_appear.gif)
+_A statue transforming into an Axe Armor._ 
+
+After appearing, it will try to hit the players with two attacks:
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/axe_armor_attacks.gif)
+_A melee axe swing, and an axe throw that goes through collisions._
+
+### Minor missions
+
+- [Death's Scythe](https://deadcells.wiki.gg/wiki/Death%27s_Scythe) and [Medusa's Head](https://deadcells.wiki.gg/wiki/Medusa%27s_Head).
+- [Balancing](https://deadcells.wiki.gg/wiki/Version_3.3#Balancing), notably on items added in [update 3.2](portfolio/dead-cells-updates/everyone-is-here-vol-2).
+- Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.3#Bug_fixes).
+
 ## Official videos
 
 #### Game Awards Animated Trailer
