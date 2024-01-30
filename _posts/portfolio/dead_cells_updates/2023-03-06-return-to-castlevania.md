@@ -157,6 +157,47 @@ Example generation from the node tree above, using rooms from [Prisoners' Quarte
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/33/level_generation_example.png)
 
+While this system works really well for all biomes in the game, it has one major flaw, which is that **node trees can only go forward**.
+
+A node tree cannot go backwards, and each node can only have one parent. This means all the branches of a level are linear, and two branches cannot connect to each other.
+
+For Dracula's Castle, there were three major intentions:
+- Make it feel like you are climbing the castle.
+- Have at least one big landmark room in the center of the biome, that acts as a HUB for all the branches.
+- Give it a "labyrinth" feel.
+
+After playing around with them, I pitched the following idea to the team.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/draculas_castle_pitch.png)
+
+While everyone was on board with the idea, it was going to be a technical challenge, due to the fact that the level structure **loops on itself**, at the second landmark room.
+
+In order to achieve that, the best solution was to fake it. For most biomes, their rooms have vastly different sizes and entrances/exits placement, and as such the same node tree will produce almost chaotic levels that look significantly different to each other.
+
+However, if we were to generalize the size of the rooms, as well as the position of their entrances and exits, we can achieve way more stable results.
+
+In this case, if all the rooms of the same type have the same height and the entrances/exits are at the same height, we can **guarantee** that all the branches will grow vertically at the same rate.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/draculas_castle_transition_rooms.png)
+_Some Corridor rooms used in Dracula's Castle, all with the same height._
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/draculas_castle_combat_rooms.png)
+_Some Combat rooms used in Dracula's Castle, all with the same height._
+
+With this in mind, we can build a node tree that lets us get to a level structure similar to this:
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/draculas_castle_base_structure.png)
+
+Then, we can fill up the space between the "Landmark Room Start" and "Landmark Room End", using an algorithm that places rooms without using the node tree.
+
+![](/assets/img/posts/portfolio/dead-cells-updates/33/draculas_castle_fake_big_room.png)
+_The beginning and end of the second landmark room, and the additional rooms that connect them together._
+
+And with that, we get a level structure that loops on itself.
+
+![](../../../assets/img/posts/portfolio/dead-cells-updates/33/draculas_casltle_final_level_structure.png)
+_Screenshot of the map of Dracula's Castle in-game, with the Entrance, Landmark rooms and Exit highlighted._
+
 ## Official videos
 
 #### Game Awards Animated Trailer
