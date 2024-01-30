@@ -8,7 +8,7 @@ panel_includes:
 tail_includes: ''
 
 title: Day/Night Cycle Landscape
-tags: [3D,Blender,Unity]
+tags: [3D,Blender,Student Project,Unity]
 images: [ /assets/img/posts/art-gallery/low-poly-landscape/low_poly_landscape_1.png,
           /assets/img/posts/art-gallery/low-poly-landscape/low_poly_landscape_2.png,
           /assets/img/posts/art-gallery/low-poly-landscape/low_poly_landscape_3.png,
