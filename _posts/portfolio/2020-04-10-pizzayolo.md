@@ -51,7 +51,7 @@ _Pizza box mockup with the logo._
 ![](/assets/img/posts/portfolio/pizzayolo/tabletop_simulator_screenshot.png)
 _Screenshot of the game in Tabletop Simulator._
 
-## Credits
+## Team
 
 - Abigaëlle Batt - Illustrations
 - Quentin Coppola - Narrative Design
