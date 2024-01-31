@@ -12,7 +12,7 @@ summary: Card board game inspired by Happy Families, made in a week.
 image: /assets/img/posts/portfolio/pizzayolo/header.png
 show_image: true
 date_override: 04/2020
-tags: [Game Design, Graphic Design, Student Project]
+tags: [Board Game, Game Design, Graphic Design, Student Project]
 ---
 
 PizzaYolo is a card board game inspired by [Happy Families](https://en.wikipedia.org/wiki/Happy_Families), made in a week as a student project.
