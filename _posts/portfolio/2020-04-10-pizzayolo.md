@@ -15,7 +15,7 @@ date_override: 04/2020
 tags: [Board Game, Game Design, Graphic Design, Student Project]
 ---
 
-PizzaYolo is a card board game inspired by [Happy Families](https://en.wikipedia.org/wiki/Happy_Families), made in a week as a student project.
+PizzaYolo is a card board game inspired by [Happy Families](https://en.wikipedia.org/wiki/Happy_Families), made in a week as a student project, during my second year at [ICAN](https://www.ican-design.fr/).
 
 The goal is to complete enough pizzas before the other players, by discarding and drawing ingredients, until you have all the ones you need.
 
