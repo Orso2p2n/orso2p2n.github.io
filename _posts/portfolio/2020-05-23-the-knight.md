@@ -24,13 +24,43 @@ This was our first _Rivals of Aether_ mod, as well as the first mod we ever deve
 ![](/assets/img/posts/portfolio/the-knight/the_knight_screenshots.png)
 _Screenshots of the character being used in-game._
 
-## Steam Workshop
+## Links
 
-The mod is available on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2105527362), where it is currently in the top 10 of the most downloaded mods for _Rivals of Aether_.
+### Steam Workshop
 
-## Github
+The mod is available on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2105527362), where it is currently in the **top 10 of the most downloaded** mods for _Rivals of Aether_.
+
+### Github
 
 The source code of this project is available on [github](https://github.com/ZPMods/roa-the-knight).
+
+## Gameplay
+
+The goal with the mod was to **bring the character** from _Hollow Knight_ directly into _Rivals of Aether_.
+
+Thus, we took **heavy inspiration** from the original game for our moveset. A lot of the attacks, if not all, are a **direct reference** to something in _Hollow Knight_.
+
+For example:
+- The forward, up and down aerial attacks are directly taken from the **directional attacks** of the original game.
+
+![](/assets/img/posts/portfolio/the-knight/aerial_attacks.png)
+_Aerial attacks in Rivals of Aether._
+
+![](/assets/img/posts/portfolio/the-knight/hk_slashes.png)
+_Directional attacks in Hollow Knight._
+
+- The special attacks are all inspired by **spells and upgrades** from the original game.
+
+![](/assets/img/posts/portfolio/the-knight/specials.png)
+_Special attacks in Rivals of Aether._
+
+![](/assets/img/posts/portfolio/the-knight/hk_spells.png)
+_Spells and upgrades in Hollow Knight._
+
+- The taunt is inspired by the **checkpoints** from the original game.
+
+![](../../assets/img/posts/portfolio/the-knight/taunt_comparison.png)
+_To the left, the taunt in Rivals of Aether. To the right, the checkpoint in Hollow Knight_
 
 ## Videos
 
@@ -44,6 +74,6 @@ The source code of this project is available on [github](https://github.com/ZPMo
 
 ## Team
 
-- [**Fabien Calendrier**](https://fabiencalendrier.fr/) - Game Design, Additionnal Programming
+- [**Fabien Calendrier**](https://fabiencalendrier.fr/) - Game Design, Additional Programming
 - [**Danilo Ferme**](https://lamenor.artstation.com/) - Programming
 - **Orso Philipponnat** - Pixel Art, Animation, Programming
