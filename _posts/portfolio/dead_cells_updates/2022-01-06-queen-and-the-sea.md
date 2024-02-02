@@ -49,7 +49,7 @@ When I started working on the DLC, most of its content had already been develope
 ### Leghugger special unlock
 
 ![](/assets/img/posts/portfolio/dead-cells-updates/27/leghugger.png){: .right}
-The [Leghugger](https://deadcells.wiki.gg/wiki/Leghugger) is one of the skills added in the DLC, letting the player summon a friendly version of one of the Shipwreck enemies. Every skill and weapon in Dead Cells has an unlock condition. Most of them are found through random drop chances on certain enemies, but some have special quests or missions attached to them. The Leghugger is one of them, and I was tasked with implementing that unlock condition.
+The [Leghugger](https://deadcells.wiki.gg/wiki/Leghugger) is one of the skills added in the DLC, letting the player summon a friendly version of one of the Shipwreck enemies. Every skill and weapon in Dead Cells has an unlock condition. Most of them are found through random drop chances on certain enemies, but some have special quests or contributions attached to them. The Leghugger is one of them, and I was tasked with implementing that unlock condition.
 
 After meeting the new [Fisherman](https://deadcells.wiki.gg/wiki/The_Fisherman) NPC in the Toxic Sewers, and as part of the storyline of the DLC, the player is tasked to go to a specific house in [Stilt Village](https://deadcells.wiki.gg/wiki/Stilt_Village). There, they will encounter an enemy that normally only appears in Infested Shipwreck, and after defeating it, a cutscene will play, unlocking the Leghugger.
 
@@ -98,7 +98,7 @@ To save on production time, the room reuses the visual identity of the [Undying 
 ![](/assets/img/posts/portfolio/dead-cells-updates/27/shores_vs_shipwreck_trans.png)
 _On the left, screenshot of Undying Shores. On the right, screenshot of the transition room._
 
-### Minor missions
+### Minor contributions
 
 - Tweaks on the [Queen](https://deadcells.wiki.gg/wiki/The_Queen) boss fight.
   - On my first time testing the fight, I managed to easily cheese it by using knockback weapons and constanly pushing her off the side of the arena, dealing damage to her. I later implemented a system that detects the number of times the Queen has been thrown off, and [teleports her back on the arena](https://deadcells.wiki.gg/wiki/The_Queen#Knockback/CC) with a special attack and dialogue if the player attempts that strategy too many times.

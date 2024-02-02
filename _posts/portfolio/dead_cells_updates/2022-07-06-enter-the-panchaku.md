@@ -83,7 +83,7 @@ Some legendary affixes I took care of implementing were:
   - The grenade triggers its explosion a second time a short time after triggering it once.
   - Similarly to the Double or Triple Bullets, the effect acts slightly differently for each grenade.
 
-### Minor missions
+### Minor contributions
 
 - Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.0#Bug_fixes).
 - 

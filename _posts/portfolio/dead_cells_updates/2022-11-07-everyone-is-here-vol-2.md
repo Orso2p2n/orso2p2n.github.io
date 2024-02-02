@@ -80,6 +80,6 @@ _Gif of the Starfury being used in-game._
 
 While one of the artist took care of the weapon model and character animation, I handled the visual part of the projectile, including the trail, visual feedbacks, particles and explosion effect.
 
-### Minor missions
+### Minor contributions
 
 - Bunch of [bug fixes](https://deadcells.wiki.gg/wiki/Version_3.2#Bug_fixes).

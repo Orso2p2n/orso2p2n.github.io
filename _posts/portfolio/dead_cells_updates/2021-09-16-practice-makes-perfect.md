@@ -77,7 +77,7 @@ _Aspects menu, accessible through a NPC in the HUB area._
 
 While the overall idea of the Aspects was already defined, the final effects were designed in tandem by me and the game designer, and I fully handled their technical implementation.
 
-### Minor missions
+### Minor contributions
 
 - [Flawless Outfits](https://deadcells.wiki.gg/wiki/Outfits#Flawless_Concierge_Outfit) are collectibles, unlocked when the player manages to kill a boss without taking any damage. Their implementation was fairly easy, reusing pre-existing systems for dropping loot on bosses, and adding a "flawless" category.
 

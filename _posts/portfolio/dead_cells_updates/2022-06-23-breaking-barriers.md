@@ -142,7 +142,7 @@ All the icons were made by me, you can get a proper look at them below.
 ![](/assets/img/posts/portfolio/dead-cells-updates/29/synergy_icons.png)
 _All of the synergy icons, in order: bleed, poison, root, fire, oil, burning oil, ice, slow, shock and stun._
 
-### Other missions
+### Other contributions
 
 - Options to customize HUD tranparency and size.
 - HUD feedback for when a weapon will display critical strike.
