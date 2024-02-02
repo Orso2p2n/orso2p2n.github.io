@@ -19,9 +19,9 @@ tags: [Animation, Aseprite, Construct 2, Game Development, Pixel Art, Programmin
 
 We had to design and develop a game in the "Tetris-like" genre in Construct 2.
 
-## Itch.io
+## Links
 
-Slime Invasion is playable on [itch.io](https://orsos.itch.io/slime-invasion).
+- <i class="fa-brands fa-itch-io"></i> - Playable on [Itch.io](https://orsos.itch.io/slime-invasion).
 
 ## Gameplay
 

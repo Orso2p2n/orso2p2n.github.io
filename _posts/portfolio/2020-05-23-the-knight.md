@@ -26,13 +26,8 @@ _Screenshots of the character being used in-game._
 
 ## Links
 
-### Steam Workshop
-
-The mod is available on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2105527362), where it is currently in the **top 10 of the most downloaded** mods for _Rivals of Aether_.
-
-### Github
-
-The source code of this project is available on [github](https://github.com/ZPMods/roa-the-knight).
+- <i class="fa-brands fa-steam"></i> - Downloadable on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2105527362).
+- <i class="fa-brands fa-github"></i> - Source code on [Github](https://github.com/ZPMods/roa-the-knight).
 
 ## Gameplay
 
