@@ -12,7 +12,7 @@ summary: 3D platformer prototype where you get to freely control an umbrella on 
 image: /assets/img/posts/portfolio/parapluie/header.png
 show_image: true
 date_override: 02/2020
-tags: [Programming, Level Design]
+tags: [Game Development, Programming, Level Design]
 ---
 
 **Parapluie** is a 3D platformer prototype where you get to freely control an umbrella on the roofs of Paris.

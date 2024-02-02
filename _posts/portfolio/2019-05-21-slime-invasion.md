@@ -12,7 +12,7 @@ summary: Puzzle game developed as my second semester project, during my first ye
 image: /assets/img/posts/portfolio/slime-invasion/header.png
 show_image: true
 date_override: 05/2019
-tags: [Construct 2, Game Design, Pixel Art, Programming, Student Project]
+tags: [Construct 2, Game Development, Pixel Art, Programming, Student Project]
 ---
 
 **Slime Invasion** is a puzzle game, developed as my second semester project, during my first year at [ICAN](https://www.ican-design.fr/).

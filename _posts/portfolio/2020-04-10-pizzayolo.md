@@ -12,7 +12,7 @@ summary: Card board game inspired by Happy Families, made in a week as a student
 image: /assets/img/posts/portfolio/pizzayolo/header.png
 show_image: true
 date_override: 04/2020
-tags: [Board Game, Game Design, Graphic Design, Student Project]
+tags: [Board Game, Graphic Design, Student Project]
 ---
 
 **PizzaYolo** is a card board game inspired by [Happy Families](https://en.wikipedia.org/wiki/Happy_Families), made in a week as a student project during my second year at [ICAN](https://www.ican-design.fr/).
@@ -54,6 +54,6 @@ _Screenshot of the game in Tabletop Simulator._
 ## Team
 
 - **Abigaëlle Batt** - Illustrations
-- **Quentin Coppola** - Narrative Design
+- **[Quentin Coppola](https://www.behance.net/quentincoppola)** - Narrative Design
 - **Orso Philipponnat** - Graphic Design
-- **Jules Retaud** - Game Design
+- **[Jules Retaud](https://julesretaud.com)** - Game Design
