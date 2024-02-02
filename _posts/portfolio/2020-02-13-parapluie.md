@@ -40,7 +40,7 @@ While Dreams is community-focused engine (meaning you can freely download and re
 ![](/assets/img/posts/portfolio/parapluie/parapluie_screenshots.png)
 _Screenshots of the game._
 
-## Video
+## Gameplay video
 
 The game was played by [Media Molecule](https://www.mediamolecule.com/)'s team, on stream.
 
