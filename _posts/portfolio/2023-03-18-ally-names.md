@@ -29,5 +29,5 @@ _Screenshots of the mod being used in-game._
 
 ## Team
 
-- **Orso Philipponnat** - Progamming
+- **Orso Philipponnat** - Programming
 - [**SaltyFinalBoss**](https://twitter.com/saltyfinalboss) - Names, Icon
