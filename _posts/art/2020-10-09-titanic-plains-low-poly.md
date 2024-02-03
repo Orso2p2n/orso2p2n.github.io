@@ -8,7 +8,7 @@ panel_includes:
 tail_includes: ''
 
 title: Titanic Plains - Low Poly
-tags: [3D,Blender,Student Project,Unity]
+tags: [3D, Blender, Risk of Rain 2, Student Project, Unity]
 images: [ /assets/img/posts/art-gallery/titanic-plains-low-poly/titanic_plains_low_poly_1.png,
           /assets/img/posts/art-gallery/titanic-plains-low-poly/titanic_plains_low_poly_2.png,
           /assets/img/posts/art-gallery/titanic-plains-low-poly/titanic_plains_low_poly_3.png ]
