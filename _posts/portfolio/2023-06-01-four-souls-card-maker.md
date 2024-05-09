@@ -25,5 +25,4 @@ tags: [C#, Godot, Programming, Tool Development]
 
 ![](/assets/img/posts/portfolio/four-souls-card-maker/screenshot_01.png)
 ![](/assets/img/posts/portfolio/four-souls-card-maker/screenshot_02.png)
-![](/assets/img/posts/portfolio/four-souls-card-maker/screenshot_03.png)
 _Screenshots of example cards made in the tool._
