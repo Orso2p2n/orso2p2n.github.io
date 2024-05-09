@@ -8,7 +8,7 @@ panel_includes:
 tail_includes: ''
 
 title: Four Souls Card Maker
-summary: Small game, developed in a week during a game jam organized by my school, with the theme "pinball".
+summary: "Card-making tool developed in Godot, to create cards for The Binding of Isaac: Four Souls."
 image: /assets/img/posts/portfolio/four-souls-card-maker/header.png
 show_image: true
 date_override: 06/2023
