@@ -14,7 +14,7 @@ summary: 'The third paid extension for Dead Cells, adding new biomes, new weapon
 image: /assets/img/posts/portfolio/dead-cells-updates/27/header.jpg
 show_image: true
 date: 2022-01-06
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 ---
 

@@ -14,7 +14,7 @@ summary: 'Balancing update, reworking legendary items to make them more unique.'
 image: /assets/img/posts/portfolio/dead-cells-updates/30/header.png
 show_image: true
 date: 2022-08-03
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 ---
 

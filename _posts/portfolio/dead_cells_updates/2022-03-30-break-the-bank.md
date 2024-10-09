@@ -14,7 +14,7 @@ summary: 'New gameplay revolving around gold: weapons, enemies, mutations and a 
 image: /assets/img/posts/portfolio/dead-cells-updates/28/header.jpg
 show_image: true
 date: 2022-03-30
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 
 mermaid: true

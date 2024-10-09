@@ -14,7 +14,7 @@ summary: 'A whole lot of new accessibility options: Assist Mode, visual aids, ga
 image: /assets/img/posts/portfolio/dead-cells-updates/29/header.png
 show_image: true
 date: 2022-06-23
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 ---
 

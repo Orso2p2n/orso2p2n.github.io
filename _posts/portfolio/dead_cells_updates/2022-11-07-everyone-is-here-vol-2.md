@@ -14,7 +14,7 @@ summary: 'Second crossover event with new indie games, adding new weapons and ou
 image: /assets/img/posts/portfolio/dead-cells-updates/32/header.jpg
 show_image: true
 date: 2022-11-07
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 ---
 

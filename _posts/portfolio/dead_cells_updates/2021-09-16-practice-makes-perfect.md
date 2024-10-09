@@ -14,7 +14,7 @@ summary: 'Update themed around training, with a new training Room, new items to 
 image: /assets/img/posts/portfolio/dead-cells-updates/25/header.png
 show_image: true
 date: 2021-09-16
-tags: [Programming, Haxe, Level Design]
+tags: [Game Development, Programming, Haxe, Level Design]
 invisible: true
 ---
 

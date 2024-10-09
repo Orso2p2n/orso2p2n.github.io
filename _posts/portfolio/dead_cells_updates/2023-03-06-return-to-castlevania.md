@@ -14,7 +14,7 @@ summary: 'Special crossover DLC with Castlevania, adding emblematic locations, e
 image: /assets/img/posts/portfolio/dead-cells-updates/33/header.png
 show_image: true
 date: 2023-03-06
-tags: [Programming, Haxe, Level Design]
+tags: [Game Development, Programming, Haxe, Level Design]
 invisible: true
 
 mermaid: true

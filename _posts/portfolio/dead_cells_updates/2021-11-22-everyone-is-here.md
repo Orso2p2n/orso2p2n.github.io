@@ -14,7 +14,7 @@ summary: 'Special crossover event with several other indie games, adding new wea
 image: /assets/img/posts/portfolio/dead-cells-updates/26/header.jpg
 show_image: true
 date: 2021-11-22
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 ---
 

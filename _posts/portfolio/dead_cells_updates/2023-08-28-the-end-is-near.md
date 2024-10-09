@@ -14,7 +14,7 @@ summary: "Update focused on adding new enemies, mutations and weapons interactin
 image: /assets/img/posts/portfolio/dead-cells-updates/35/header.png
 show_image: true
 date: 2023-08-28
-tags: [Programming,Haxe]
+tags: [Game Development, Programming,Haxe]
 invisible: true
 ---
 
