@@ -12,7 +12,7 @@ tags: [3D,Blender]
 image: /assets/img/posts/art-gallery/zigoton-model/zigoton_render_bg.png
 ---
 
-* Pixel art of a [Zigoton](https://patapon.fandom.com/wiki/Zigotons), from [*Patapon*](https://en.wikipedia.org/wiki/Patapon). <br>
+* 3D render of a [Zigoton](https://patapon.fandom.com/wiki/Zigotons), from [*Patapon*](https://en.wikipedia.org/wiki/Patapon). <br>
 * Modelled and rendered in Blender.
 
 ![](/assets/img/posts/art-gallery/zigoton-model/zigoton_render.png)
