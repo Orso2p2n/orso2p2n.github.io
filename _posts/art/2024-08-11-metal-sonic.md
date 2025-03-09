@@ -7,7 +7,7 @@ panel_includes:
   - toc
 tail_includes: ''
 
-title: Ebi
+title: Metal Sonic
 tags: [Aseprite,Pixel Art]
 image: /assets/img/posts/art-gallery/metal-sonic/metal_sonic_export.png
 ---
