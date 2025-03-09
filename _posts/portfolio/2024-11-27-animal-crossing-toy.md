@@ -11,7 +11,7 @@ title: Animal Crossing Toy
 summary: "Birthday gift for a friend, a little Animal Crossing themed toy made in Godot."
 image: /assets/img/posts/portfolio/animal-crossing-toy/header.png
 show_image: true
-date_override: 06/2023
+date_override: 11/2024
 tags: [Animation, C#, Godot, Programming, Game Development]
 ---
 
